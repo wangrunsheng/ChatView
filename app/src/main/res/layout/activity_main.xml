@@ -42,8 +42,10 @@
             android:textSize="16dp"
             android:layout_centerVertical="true"
             android:id="@+id/text"
-            android:text="这是箭头向左的聊天气泡"
+            android:text="这是箭头向左的聊天气泡 www.baidu.com 中文"
             android:textColor="#4a4a4a"
+            android:autoLink="all"
+            android:textIsSelectable="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </com.cxd.chatview.moudle.ChatView>
@@ -121,6 +123,7 @@
             android:layout_centerVertical="true"
             android:text="这是很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多的文字哦"
             android:textColor="#4a4a4a"
+            android:textIsSelectable="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </com.cxd.chatview.moudle.ChatView>

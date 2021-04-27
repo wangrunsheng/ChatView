@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         context = this ;
 
+        // push test
         firstView = findViewById(R.id.firstView);
         thirdView = findViewById(R.id.thirdView);
         firstView.setOnClickListener(new View.OnClickListener() {
